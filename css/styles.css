@@ -1,0 +1,256 @@
+body {
+    margin: 0 auto;
+    font-family: 'Mansalva', cursive;
+}
+
+
+.nav-bar {
+    background-color: rgba(8, 70, 90, .5);
+    height: 80px;
+    width: 100%;
+    color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.first_image {
+    height: 80px;
+    width: 80px;
+}
+.nav-list {
+    float: right;
+    margin-right: 15px;
+    /* border: solid white 3px; */
+    text-align: center;
+    margin-top: 25px;
+
+
+}
+
+.list-item {
+    display: inline;
+    /* padding-right: 30px; */
+    border: 3px dashed white;
+    text-align: center;
+    margin-right: 25px;
+    display: inline-block;
+    background-color: white;
+    /* height: 23px;
+    width: 75px; */
+}
+.list-item:hover {
+    color: #fff;
+    background-color: #E50112;
+}
+
+/* .list-item a:hover {
+    color: #fff;
+    
+}
+
+.nav-list a {
+    text-decoration: none;
+
+} */
+.nav-list a:hover {
+    color: white;
+    font-size: 20px;
+}
+
+.main {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/Cheese_Burger_Banner_2.jpg);
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    Background-size: cover;
+    margin-top: 80px;
+    position: relative;
+}
+.main-box {
+    height:100px;
+    width: 300px;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    background-color: white;
+    border:3px solid red;
+}
+.main-text {
+    text-align: center;
+}
+.section {
+    width: 100%;
+    height: 800px;
+    /* position: relative; */
+}
+
+/* .dark_burger_img {
+    height: 500px;
+    width: 500px;
+}
+
+.section-p p {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    height: 500px;
+    width: 500px;
+}
+.section-img, .section-p {
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    height: 600px;
+    width: 100%;
+} */
+
+.section-img, .section-p {
+    height: 600px;
+    width: 42%;
+    border:solid blue 5px;
+    float: left;
+    margin-left: 60px;
+}
+
+.dark_burger_img {
+    height: 550px;
+    width: 91%;
+    padding:25px;
+}
+
+.section-p {
+    padding: 24px;
+    height: 550px;
+}
+.footer {
+    background-color:lightblue;
+    height: 80px;
+    width: 100%;
+}
+.footer div {
+    width: 33%;
+    float: left;
+}
+.footer-input, .social, .copy {
+    display: block;
+    text-align: center;
+}
+.social {
+    margin-top: 25px;
+}
+.copy {
+    margin-top: 25px;
+}
+.footer-input input, .footer-input button {
+    display: inline-block;
+    margin-top: 25px;
+}
+.footer-input {
+    height: 50px;
+    width: 330px;
+}
+.footer-input input {
+    height: 30px;
+    width: 300px;
+}
+.footer-input button {
+    height: 30px;
+    width:55px;
+}
+
+.fab {
+    font-size: 2em;
+    color: white;
+}
+
+.copy {
+    color: black;
+}
+
+/* --------About Styles------- */
+
+.about-header {
+    background-color: red;
+    border: black solid 3px;
+    height: 50px;
+    width: 251px;
+    position: absolute;
+    top: 116px;
+    left: 39%;
+}
+
+.about-header h2 {
+    font-family: 'Mansalva', cursive;
+    font-weight: 500px;
+    text-align: center;
+    margin-top: 3%;
+}
+.container {
+    height: 700px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.container-box {
+    height: 650px;
+    width: 30%;
+    border: 3px solid #ADD8E6;
+    float: left;
+    margin-left: 30px;
+}
+
+.container-box img {
+    height: 315px;
+    width: 100%;
+}
+
+.container-box audio {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.container p {
+    padding: 20px;
+}
+
+
+
+
+/*---------- Contact Sytyles ----------*/
+
+
+.contact-section {
+    height: 1000px;
+    width: 100%;
+    background-color: #ADD8E6;
+    margin-top: 0px;
+}
+
+.contact-box {
+    height: 756px;
+    width: 45%;
+    border: solid blue 3px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 200px;
+}
+
+.contact-header {
+    background-color: red;
+    border: black solid 3px;
+    height: 50px;
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 39%;
+}
+
+.contact-header h2 {
+    font-family: 'Mansalva', cursive;
+    font-weight: 500px;
+    text-align: center;
+}
